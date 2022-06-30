@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/vendor.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+  <title>Главная</title>
+</head>
+<body>
+  <main class="main">
+    <div id="fullpage">
+      <div class="section section--hero" data-anchor="main">
+        <div class="container section__container ">
+         <div class="section__inner">
+          <h1 class="section__title">👋 <b>Hello World,</b><br>
+            я Даниил Соколов
+          </h1>
+          <h2 class="section__subtitle">WEb-разработчик</h2>
+         </div>
+        </div>
+      </div>
+      <div class="section section--about" data-anchor="about">
+        <div class="container section__container">
+          <h3 class="section__title">Немного о себе</h3>
+          <div class="section__content">
+            <div class="section__text"><p>Привет!</p>
+              <p>Меня зовут Даниил. Родом из Республики Марий Эл, город Йошкар-Ола.</p>
+              <p>Занимаюсь верстокой и разработка сайтов на cms WordPress.</p>
+              <p>Опыт: более 1 года </p>
+            </div>
+            <img class="section__author" src="https://via.placeholder.com/300x400.png" alt="Даниил Соколов">
+          </div>
+        </div>
+      </div>
+      <div class="section section--example-work" data-anchor="example-work">
+        <div class="container section__container">
+          <h3 class="section__title">Последние работы</h3>
+          <div class="section__body">
+            <ul class="section__items grid">
+              <li class="section__item">
+                <div class="work">
+                  <img class="work__bg" src="/assets/images/portfolio-picture/post-bg.webp" alt="">
+                  <a class="work__link" href="#"> Подробнее</a>
+                </div>
+              </li>
+              <li class="section__item">
+                <div class="work">
+                  <img class="work__bg" src="/assets/images/portfolio-picture/post-bg.webp" alt="">
+                  <a class="work__link" href="#"> Подробнее</a>
+                </div>
+              </li>
+            </ul>
+            <a class="section__btn btn" href="porfolio.html">Все работы</a>
+          </div>
+        </div>
+      </div>
+      <div class="section  section--skills" data-anchor="skills">
+        <div class="container section__container">
+          <h3 class="section__title">Скилы</h3>
+          <div class="section__content">
+            <ul class="skills-progress">
+              <li class="skills-progress__item">
+                <div class="skill" data-persent="80">
+                  <svg class="skill__progress" viewBox="0 0 150 150">
+                    <circle class="skill__progress-circle" cx="75" cy="75" r="65" />
+                  </svg>
+                  <div class="skill__title">Html/Css</div>
+                  <div class="skill__descr">Html/Css - это 'скелет' и внешний вид сайта</div>
+                </div>
+              </li>
+              <li class="skills-progress__item">
+                <div class="skill" data-persent="60">
+                  <svg class="skill__progress" viewBox="0 0 150 150">
+                    <circle class="skill__progress-circle" cx="75" cy="75" r="65" />
+                  </svg>
+                  <div class="skill__title">JS</div>
+                  <div class="skill__descr">JavaSript</div>
+                </div>
+              </li>
+              <li class="skills-progress__item">
+                <div class="skill" data-persent="50">
+                  <svg class="skill__progress" viewBox="0 0 150 150">
+                    <circle class="skill__progress-circle" cx="75" cy="75" r="65" />
+                  </svg>
+                  <div class="skill__title">WP</div>
+                  <div class="skill__descr">WordPress - позволить управлять контентом сайтa</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="section section--contacts" data-anchor="contacts">
+        <div class="container section__container">
+          <h3 class="section__title">Контакты</h3>
+          <img class="section__img" src="assets/images/contacts.webp" alt="">
+          <div class="section__links">
+            <a class="section__link" href="#">Danil1521</a>
+            <a class="section__link" href="mailot:dan1521sok@gamil.com">dan1521sok@gamil.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item active" data-menuanchor="main">
+          <a class="menu__link " href="#main">Главная</a>
+        </li>
+        <li class="menu__item" data-menuanchor="about">
+          <a class="menu__link" href="#about">О себе</a>
+        </li>
+        <li class="menu__item" data-menuanchor="example-work">
+          <a class="menu__link" href="#example-work">Примеры работ</a>
+        </li>
+        <li class="menu__item" data-menuanchor="skills">
+          <a class="menu__link" href="#skills">Скилы</a>
+        </li>
+        <li class="menu__item" data-menuanchor="contacts">
+          <a class="menu__link" href="#contacts">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="btn-reset burger"><span></span></button>
+  </main>
+  
+ <!--<script src="assets/js/validate.js"></script>
+  <script src="assets/js/inputmask.js"></script> --> 
+<!-- <script src="assets/js/fullpage.extensions.min.js"></script>
+<script src="assets/js/swiper.js"></script> -->
+<script src="assets/js/vendor.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
