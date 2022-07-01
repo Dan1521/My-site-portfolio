@@ -681,7 +681,7 @@ body.no-scroll {
 }
 
 .section--contacts .section__img {
-  width: 300px;
+  width: 250px;
   margin-left: auto;
   margin-bottom: 30px;
 }
@@ -972,7 +972,6 @@ body.no-scroll {
 
 @media (min-width: 768px) {
   .section--contacts .section__img {
-    width: 350px;
     -webkit-transform: translateY(-50px);
     -ms-transform: translateY(-50px);
     transform: translateY(-50px);
@@ -1343,7 +1342,7 @@ body.no-scroll {
   }
 
   .section--contacts .section__img {
-    width: 250px;
+    width: 200px;
   }
 
   .portfolio__title {
